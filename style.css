@@ -3,9 +3,10 @@
  */
 
  body{
-    font-family: "Noto Sans JP","sans-serif";
+    font-family: 'Noto Serif JP', serif;
     margin: 0;
     min-width: 1920px;
+    min-height: 1000px;
  }
 
 /*
@@ -24,7 +25,6 @@
 
  .block-main{
     text-align: left;
-    margin: 100px 0;
 }
 
 /*
@@ -34,14 +34,14 @@
  .name-profile{
     color: white;
     background-color: gray;
-    padding: 100px;
+    padding: 50px 100px 0;
     width: 100%;
-    height: 1079px;
+    height: 1040px;
     max-width: 2000px;
 }
 
 .name-profile img{
-    block-size: 1040px ;
+    block-size: 1040px;
 }
 
 .name-profile h1{
@@ -64,9 +64,9 @@
 
 .about-profile{
     color: black;
-    padding: 100px;
+    padding: 50px 100px 0;
     width: 100%;
-    height: 950px;
+    height: 650px;
     max-width: 2000px;
 }
 
@@ -102,4 +102,168 @@
 
 .icon-list li:last-child{
     margin-right: 0;
+}
+
+/*
+ *[project-Twitter]のスタイルシート
+ */
+
+.project-base{
+    color: white;
+    background-color: gray;
+    padding: 50px 100px 0;
+    width: 100%;
+    height: 968px;
+    max-width: 2000px;
+}
+
+.project-base h2{
+    font-size: 50px;
+}
+
+.project-base img{
+    height: 811px;
+}
+
+.project-commit{
+    margin-left: 931px;
+}
+
+.project-commit h3{
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.project-commit p{
+    font-size: 30px;
+}
+
+.project-commit a{
+    font-size: 30px;
+}
+
+.link{
+    padding-top: 50px;
+}
+
+.link a{
+    align-items: left;
+    padding: 10px 20px;
+    margin-right: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.link .web{
+    background-color: white;
+    color: gray;
+}
+
+.link .github{
+    border: 1px solid white;
+    color: white;
+}
+
+/*
+ *[project-netflix]のスタイルシート
+ */
+
+ .project-netflix{
+    color: black;
+    background-color: white;
+    padding: 0 100px 0;
+    height: 968px;
+    width: 100%;
+    max-width: 2000px;
+}
+
+.project-netflix img{
+    width: 881px;
+    height: 811px;
+}
+
+.netflix-commit{
+    margin-left: 931px;
+}
+
+.netflix-commit h3{
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.netflix-commit p{
+    font-size: 30px;
+}
+
+.netflix-commit a{
+    font-size: 30px;
+}
+
+.link2{
+    padding-top: 50px;
+}
+
+.link2 a{
+    align-items: left;
+    padding: 10px 20px;
+    margin-right: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.link2 .github{
+    background-color: black;
+    color: white;
+}
+
+.link2 .web{
+    border: 1px solid black;
+    color: black;
+}
+
+/*
+ *
+ */
+
+.contact-profile{
+    color: white;
+    background-color: black;
+    padding: 30px 100px 20px;
+    width: 100%;
+    max-width: 2000px;
+    text-align: left;
+}
+
+.contact-profile h2{
+    font-size: 50px;
+}
+
+.contact-icon{
+    font-size: 30px;
+    list-style: none;
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+}
+
+.contact-icon li{
+    margin-right: 40px;
+}
+
+.contact-icon li:last-child{
+    margin-right: 0;
+}
+
+/*
+ *[footer]のスタイルシート
+ */
+
+.block-footer{
+   background-color: gray;
+   color: white;
+   padding: 20px 100px 20px;
+   width: 100%;
+   clear: both;
+   text-align: center;
+   font-size: 18px;
 }
